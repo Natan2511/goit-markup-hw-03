@@ -57,7 +57,6 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 body {
   box-sizing: border-box;
   margin: 0;
@@ -197,6 +196,9 @@ body {
 }
 
 /* ---------------------OUR TEAM----------------------- */
+.team-bg {
+  background: #f5f4fa;
+}
 .team-text {
   font-weight: 700;
   font-size: 36px;
