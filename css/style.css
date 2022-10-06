@@ -58,6 +58,8 @@ img {
   overflow: hidden;
 }
 
+/* ---------------------INDEX--------------------- */
+
 body {
   box-sizing: border-box;
   margin: 0;
@@ -68,8 +70,13 @@ body {
   letter-spacing: 0.03em;
   color: var(--mosty-black);
 }
-/* ---------------------INDEX--------------------- */
-
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
 /* ---------------------HEADER--------------------- */
 .header {
 }
@@ -81,6 +88,18 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
   color: var(--vivid-blue);
+}
+.header-logo-flex {
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  padding-right: 93px;
+}
+.header-nav-flex {
+  display: flex;
+  margin-right: 344px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .logo-color {
   color: var(--mostly-black);
@@ -118,6 +137,10 @@ body {
 .header-mail:hover,
 .header-mail:focus {
   color: var(--vivid-blue);
+}
+.header-flex {
+  min-width: 1600px;
+  display: flex;
 }
 
 /* ---------------------MAIN=HEADER+BUTTON--------------------- */
