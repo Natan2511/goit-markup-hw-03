@@ -58,6 +58,8 @@ img {
   overflow: hidden;
 }
 
+/* ---------------------INDEX--------------------- */
+
 body {
   box-sizing: border-box;
   margin: 0;
@@ -68,8 +70,13 @@ body {
   letter-spacing: 0.03em;
   color: var(--mosty-black);
 }
-/* ---------------------INDEX--------------------- */
-
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
 /* ---------------------HEADER--------------------- */
 .header {
 }
@@ -82,9 +89,17 @@ body {
   letter-spacing: 0.03em;
   color: var(--vivid-blue);
 }
-
+.header-logo-flex {
+  display: flex;
+}
 .logo-color {
   color: var(--mostly-black);
+}
+.header-nav-flex {
+  display: flex;
+}
+.header-contats-flex {
+  display: flex;
 }
 .header-link {
   font-style: normal;
