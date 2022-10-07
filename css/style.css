@@ -74,7 +74,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
 }
 /* ---------------------INDEX--------------------- */
 
@@ -175,6 +174,7 @@ body {
   background: var(--vivid-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: 0px;
 }
 .button-text-flex {
   display: flex;
