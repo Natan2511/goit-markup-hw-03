@@ -13,88 +13,99 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
-      <!-- LOGO -->
-      <a class="header-logo link" href="./index.html"
-        >Web<span class="logo-color">Studio</span></a
-      >
-      <!-- NAV -->
-      <nav>
-        <ul>
+      <div class="container header-container">
+        <!-- LOGO -->
+        <a class="header-logo link" href="./index.html"
+          >Web<span class="logo-color">Studio</span></a
+        >
+        <!-- NAV -->
+        <nav>
+          <ul class="header-list">
+            <li>
+              <a class="header-link link header-studio" href="./index.html"
+                >Студія</a
+              >
+            </li>
+            <li>
+              <a class="header-link link" href="portfolio.html">Портфоліо</a>
+            </li>
+            <li>
+              <a class="header-link link" href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- COTACTS -->
+        <ul class="header-cont-flex">
           <li>
-            <a class="header-link link header-studio" href="./index.html"
-              >Студія</a
+            <a class="header-mail link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="header-link link" href="portfolio.html">Портфоліо</a>
-          </li>
-          <li>
-            <a class="header-link link" href="#">Контакти</a>
+            <a class="header-tel link" href="”tel:+380961111111”"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
-      </nav>
-      <!-- COTACTS -->
-      <ul>
-        <li>
-          <a class="header-mail link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="header-tel link" href="”tel:+380961111111”"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <!-- HEADER+BUTTON -->
       <section class="header-main">
-        <h1 class="main-text">Ефективні рішення для вашого бізнесу</h1>
-        <button class="main-button" type="button">
-          <span class="main-text-button">Замовити послугу</span>
-        </button>
+        <div class="container header-main-flex">
+          <h1 class="main-text main-text-flex">
+            Ефективні рішення для вашого бізнесу
+          </h1>
+          <button class="main-button" type="button">
+            <span class="main-text-button button-text-flex"
+              >Замовити послугу</span
+            >
+          </button>
+        </div>
       </section>
       <!-- SPECIALITIES -->
       <section>
-        <h2 class="visually-hidden">Specialities</h2>
-        <ul>
-          <!-- Peculiarities 1 -->
-          <li>
-            <h3 class="specialities-after">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="specialities-tittle">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <!-- Peculiarities 2 -->
-          <li>
-            <h3 class="specialities-after">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="specialities-tittle">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <!-- Peculiarities 3 -->
-          <li>
-            <h3 class="specialities-after">ПЛАНУВАННЯ</h3>
-            <p class="specialities-tittle">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <!-- Peculiarities 4 -->
-          <li>
-            <h3 class="specialities-after">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="specialities-tittle">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="visually-hidden">Specialities</h2>
+          <ul>
+            <!-- Peculiarities 1 -->
+            <li>
+              <h3 class="specialities-after">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="specialities-tittle">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <!-- Peculiarities 2 -->
+            <li>
+              <h3 class="specialities-after">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="specialities-tittle">
+                Завдання організації, особливо рамки і місце навчання кадрів тягне
+                у себе.
+              </p>
+            </li>
+            <!-- Peculiarities 3 -->
+            <li>
+              <h3 class="specialities-after">ПЛАНУВАННЯ</h3>
+              <p class="specialities-tittle">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <!-- Peculiarities 4 -->
+            <li>
+              <h3 class="specialities-after">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="specialities-tittle">
+                Значимість цих проблем настільки очевидна, що реалізація планових
+                завдань.
+              </p>
+            </li>
+          </ul>
+        </div class="container">
       </section>
       <!-- PICTURE -->
       <section>
