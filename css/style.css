@@ -69,13 +69,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--mosty-black);
 }
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  outline: 2px solid red;
-}
+
 /* ---------------------INDEX--------------------- */
 
 /* ---------------------HEADER--------------------- */
@@ -126,42 +120,9 @@ body {
 :focus {
   color: var(--vivid-blue);
 }
-.header-flex {
-  display: flex;
-}
-.header-logo-flex {
-  margin-top: 24px;
-  margin-bottom: 25px;
-  margin-right: 93px;
-}
-.header-list-flex {
-  width: 281px;
-  height: 16px;
-  display: flex;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  gap: 50px;
-  /* justify-content: space-evenly; */
-}
-.cont-flex {
-  display: flex;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-left: 344px;
-}
-.mail-flex {
-  display: flex;
-  margin-right: 50px;
-}
-.tel-flex {
-  display: flex;
-}
+
 /* ---------------------MAIN=HEADER+BUTTON--------------------- */
 .header-main {
-  height: 600px;
-  margin-bottom: 94px;
-}
-.header-bg {
   background-color: var(--very-dark-grayish-blue);
 }
 .main-text {
@@ -173,21 +134,10 @@ body {
   text-transform: uppercase;
   color: var(--white);
 }
-.main-text-flex {
-  width: 696px;
-  margin: auto;
-  display: flex;
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
 .main-button {
   background: var(--vivid-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
-.main-button-flex {
-  width: 216px;
-  height: 50px;
 }
 .main-text-button {
   font-family: "Roboto";
@@ -270,7 +220,7 @@ body {
 }
 
 /* ---------------------FOOTER--------------------- */
-.footer-bg {
+.footer {
   background: var(--very-dark-grayish-blue);
 }
 .footer-logo {
